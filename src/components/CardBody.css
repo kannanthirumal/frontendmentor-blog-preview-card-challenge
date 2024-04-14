@@ -1,0 +1,53 @@
+.card-body {
+  max-width: 336px;
+  height: 194px;
+  margin-top: 24px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  line-height: 150%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 375px) {
+  .card-body {
+    max-width: 279px;
+    height: 173px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .card-body {
+    max-width: 279px;
+    height: 173px;
+  }
+}
+
+.card-body .date {
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: var(--black);
+}
+
+.card-body h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: var(--black);
+  transition: color 0.3s ease;
+}
+
+.card-body h1:hover {
+  color: var(--yellow);
+}
+
+.card-body .description {
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--grey);
+}

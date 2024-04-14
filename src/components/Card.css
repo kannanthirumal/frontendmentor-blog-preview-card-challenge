@@ -1,0 +1,52 @@
+.card {
+  max-width: 384px;
+  height: 522px;
+  background-color: var(--white);
+  border-radius: 20px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  box-shadow: 8px 8px 0 0 var(--black);
+  padding: 24px;
+  cursor: pointer;
+
+  transition: box-shadow 0.3s ease;
+}
+
+.card .illustration {
+  max-width: 336px;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    max-width: 327px;
+    height: 501px;
+  }
+
+  .card .illustration {
+    max-width: 279px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .card {
+    max-width: 327px;
+    height: 501px;
+  }
+
+  .card .illustration {
+    max-width: 279px;
+  }
+}
+
+@media screen and (min-width: 376px) {
+  .card:hover {
+    box-shadow: 16px 16px 0 0 var(--black);
+  }
+
+  .card:active {
+    box-shadow: 16px 16px 0 0 var(--black);
+  }
+}
