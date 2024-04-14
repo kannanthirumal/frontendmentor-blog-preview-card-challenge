@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/frontendmentor-blog-preview-card-challenge/static/css/main.5e559c5e.css",
+    "main.js": "/frontendmentor-blog-preview-card-challenge/static/js/main.fdb31f52.js",
+    "static/media/illustration-article.svg": "/frontendmentor-blog-preview-card-challenge/static/media/illustration-article.082cca317c8b4b2c973fa73013373085.svg",
+    "static/media/image-avatar.webp": "/frontendmentor-blog-preview-card-challenge/static/media/image-avatar.79dc6fdb93748b6b0120.webp",
+    "index.html": "/frontendmentor-blog-preview-card-challenge/index.html",
+    "main.5e559c5e.css.map": "/frontendmentor-blog-preview-card-challenge/static/css/main.5e559c5e.css.map",
+    "main.fdb31f52.js.map": "/frontendmentor-blog-preview-card-challenge/static/js/main.fdb31f52.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e559c5e.css",
+    "static/js/main.fdb31f52.js"
+  ]
+}
